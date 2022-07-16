@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ============================= Home ===========================*/
+/* ============================= Home ===========================*/
+/* ============================= Home ===========================*/
+
+/*============================== navbar =========================*/
+/* nav{
+    margin: 0;
+    padding: 0;
+} */
+/* #navbarNavAltMarkup{
+   display: flex;
+   justify-content: center;
+   height: 10vh;
+} */
+
+#navbarNavAltMarkup a {
+    margin: 0 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*============================== slider =========================*/
+
+/* Slider */
+
+
+#slider {
+
+}
+
+
+#img-div img{
+    /* width: 70vw;
+    height: 90vh; */
+    display: block;
+    margin: auto;
+}
+
+.myArrow {
+    font-size: 60px;
+}
+
+.arrow-div {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/*============================== info =========================*/
+
+#info {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 10rem;
+}
+
+#info p {
+    margin: 1rem 0;
+}
+
+#info h2 {
+    font-size: larger;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+/*============================== cards =========================*/
+.cards-container{
+    margin: 10rem 0;
+}
+
+.cards-container .myCards .card {
+    margin: 2vh 4vw;
+}
+
+.cards-container .myCards .card  img {
+    height: 20rem;
+}
+
+.cards-container .cards-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 10px 10vw; */
+}
+
+.cards-container .cards-buttons button {
+    margin: 2vh 0;
+    width: 10vw;
+    height: 8vh;
+    /* border-radius: 3px; */
+    overflow: visible;
+}
+
+
+
+
+
+
+/*============================== footer =========================*/
+
+.inf-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 150px 0;
+    /* background-color: #7858A6; */
+}
+
+.inf-div h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.inf-div p{
+    font-size: 18px;
+    color: rgb(54, 53, 53);
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.inf-div img {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.inf-div ul {
+    margin: 0;
+    padding: 0;
+}
+
+.inf-div ul li {
+    list-style: none;
+}
+
+.inf-div ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;    
+    color: rgb(54, 53, 53);
+}
+
+.inf-div input {
+    border-radius: 40px;
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    margin:  30px 10px 30px 0;
+}
+
+.inf-div button {
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.inf-div .social-div i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: black;
+}
+
+.upArrow{
+    display: flex;
+    justify-content: center;
+}
+
+#topArrow {
+    font-size: 60px;
+    margin: 50px 0;
+    color: black;
+    transition: font-size 1s;
+
+}
+
+#topArrow:hover {
+    font-size: 100px;
+    cursor: pointer;
+}
